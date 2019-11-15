@@ -1,0 +1,7 @@
+django-customUser-tutorial-venv/
+*.env
+*.DS_Store
+*.pyc
+__pycache__/
+.vscode/
+*.sqlite3
