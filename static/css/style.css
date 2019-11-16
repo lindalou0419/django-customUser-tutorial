@@ -17,3 +17,21 @@ body {
   font-size: 1.6rem;
   line-height: 1.8rem;
 }
+
+/* .field, .submit-btn {
+  display: inline-block;
+}
+
+.field input, .submit-btn {
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+} */
+
+.form-wrapper label, .form-wrapper input {
+  display: inline-block;
+}
+
+.form-wrapper .helptext {
+  display: none;
+}
