@@ -1,6 +1,5 @@
 {% extends 'base.html' %}
 
-
 {% block content %}
 <section class="content">
   <h2>Login</h2>
@@ -10,5 +9,7 @@
     {{ form.as_p }}
     <button type="submit">Login</button>
   </form>
+
+  Don't have an account? <a href="{% url 'signup' %}">Sign up!</a>
 </section>
 {% endblock %}
