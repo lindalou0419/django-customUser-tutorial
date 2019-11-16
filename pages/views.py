@@ -11,7 +11,6 @@ def root(request):
 @method_decorator(login_required, name='dispatch')
 class HomePageView(TemplateView):
   template_name = 'index.html'
-  # title = "Welcome"
 
   def get_context_data(self, *args, **kwargs):
     context = super(HomePageView, self).get_context_data(*args, **kwargs)
